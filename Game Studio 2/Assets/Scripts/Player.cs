@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         tiles = new Tile[gridDimensions.x, gridDimensions.y];
-        transform.position = tiles[playerPos.x, playerPos.y].gameObject.transform.position;
     }
 
     void HandleInputs()
@@ -48,6 +47,7 @@ public class Player : MonoBehaviour
                 playerPos.x++;
             }
         }
+        transform.position = tiles[playerPos.x, playerPos.y].gameObject.transform.position;
     }
 
     // Update is called once per frame
