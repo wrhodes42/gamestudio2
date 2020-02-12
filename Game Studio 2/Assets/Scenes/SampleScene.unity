@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 3}
 --- !u!212 &8432750
@@ -259,6 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 6}
 --- !u!212 &54789829
@@ -354,6 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 1}
 --- !u!212 &104084890
@@ -449,6 +452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 0}
 --- !u!212 &110696214
@@ -544,6 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 1}
 --- !u!212 &124288719
@@ -639,6 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 5}
 --- !u!212 &135395728
@@ -734,6 +740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 4}
 --- !u!212 &147184512
@@ -829,6 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 6}
 --- !u!212 &207913733
@@ -924,6 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 6}
 --- !u!212 &230108509
@@ -1019,6 +1028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 3}
 --- !u!212 &234540148
@@ -1114,6 +1124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 1}
 --- !u!212 &243682870
@@ -1209,6 +1220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 0}
 --- !u!212 &266106594
@@ -1304,6 +1316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 4}
 --- !u!212 &269904646
@@ -1399,6 +1412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 4}
 --- !u!212 &303322244
@@ -1560,6 +1574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 7}
 --- !u!212 &344248382
@@ -1655,6 +1670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 0}
 --- !u!212 &370384568
@@ -1750,6 +1766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 3}
 --- !u!212 &394519344
@@ -1845,6 +1862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 5}
 --- !u!212 &410203907
@@ -1907,6 +1925,7 @@ GameObject:
   - component: {fileID: 413497989}
   - component: {fileID: 413497991}
   - component: {fileID: 413497990}
+  - component: {fileID: 413497992}
   m_Layer: 0
   m_Name: New Sprite (3)
   m_TagString: Untagged
@@ -1935,11 +1954,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413497988}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 2}
 --- !u!212 &413497991
@@ -1980,7 +2000,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c340ce01fa45145a59077a5fb8992887, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f7c6b740e89c4d67942f5d1fffa317e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1991,6 +2011,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &413497992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413497988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302e26602514b4aa896cb8bf5dc177d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passable: 1
+  player: {fileID: 1505961814}
+  coord: {x: 3, y: 2}
 --- !u!1 &417443389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,6 +2070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 3}
 --- !u!212 &417443392
@@ -2168,6 +2204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 1}
 --- !u!212 &444830981
@@ -2263,6 +2300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 0}
 --- !u!212 &457908313
@@ -2358,6 +2396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 4}
 --- !u!212 &465805538
@@ -2453,6 +2492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 6}
 --- !u!212 &466270119
@@ -2515,6 +2555,7 @@ GameObject:
   - component: {fileID: 532096846}
   - component: {fileID: 532096848}
   - component: {fileID: 532096847}
+  - component: {fileID: 532096849}
   m_Layer: 0
   m_Name: New Sprite (2)
   m_TagString: Untagged
@@ -2543,11 +2584,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532096845}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 1}
 --- !u!212 &532096848
@@ -2588,7 +2630,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c340ce01fa45145a59077a5fb8992887, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f7c6b740e89c4d67942f5d1fffa317e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2599,6 +2641,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &532096849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532096845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302e26602514b4aa896cb8bf5dc177d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passable: 1
+  player: {fileID: 1505961814}
+  coord: {x: 2, y: 1}
 --- !u!1 &546743193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,6 +2738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 5}
 --- !u!212 &572272891
@@ -2852,6 +2910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 6}
 --- !u!212 &615906023
@@ -3014,7 +3073,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.8062688e+28, y: 7.871983e+31, z: 3.4957e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: 2.06e-43, z: 0, w: 21246576}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3076,6 +3135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 2}
 --- !u!212 &721089721
@@ -3171,6 +3231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 0}
 --- !u!212 &722536542
@@ -3266,6 +3327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 6}
 --- !u!212 &726461973
@@ -3361,6 +3423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 1}
 --- !u!212 &734624603
@@ -3456,6 +3519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 5}
 --- !u!212 &743568043
@@ -3680,6 +3744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 6}
 --- !u!212 &763746131
@@ -3775,6 +3840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 3}
 --- !u!212 &765226209
@@ -3870,6 +3936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 5}
 --- !u!212 &823440186
@@ -3965,6 +4032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 2}
 --- !u!212 &960984065
@@ -4143,6 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 2}
 --- !u!212 &997862644
@@ -4238,6 +4307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 7}
 --- !u!212 &999306774
@@ -4333,6 +4403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 0}
 --- !u!212 &1009557317
@@ -4428,6 +4499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 4}
 --- !u!212 &1035396421
@@ -4700,6 +4772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 7}
 --- !u!212 &1273647304
@@ -4833,6 +4906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 3}
 --- !u!212 &1306922320
@@ -4928,6 +5002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 3}
 --- !u!212 &1352635442
@@ -5023,6 +5098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 7}
 --- !u!212 &1378539793
@@ -5118,6 +5194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 7}
 --- !u!212 &1383164115
@@ -5213,6 +5290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 3}
 --- !u!212 &1441906695
@@ -5308,6 +5386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 4}
 --- !u!212 &1483957410
@@ -5389,6 +5468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b235d93285d954deda8a320996b6f146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 747735618}
+  timePerMove: 1
   gridDimensions: {x: 8, y: 8}
   playerPos: {x: 4, y: 4}
 --- !u!212 &1505961815
@@ -5498,6 +5579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 4}
 --- !u!212 &1518196567
@@ -5593,6 +5675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 4}
 --- !u!212 &1647984232
@@ -5726,6 +5809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 5}
 --- !u!212 &1653207283
@@ -5821,6 +5905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 7}
 --- !u!212 &1738519588
@@ -5916,6 +6001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 6}
 --- !u!212 &1831095850
@@ -6049,6 +6135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 2}
 --- !u!212 &1857176609
@@ -6144,6 +6231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 6, y: 7}
 --- !u!212 &1948789828
@@ -6206,6 +6294,7 @@ GameObject:
   - component: {fileID: 1957175785}
   - component: {fileID: 1957175787}
   - component: {fileID: 1957175786}
+  - component: {fileID: 1957175788}
   m_Layer: 0
   m_Name: New Sprite (3)
   m_TagString: Untagged
@@ -6234,11 +6323,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957175784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 1}
 --- !u!212 &1957175787
@@ -6279,7 +6369,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c340ce01fa45145a59077a5fb8992887, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f7c6b740e89c4d67942f5d1fffa317e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6290,6 +6380,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1957175788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957175784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302e26602514b4aa896cb8bf5dc177d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passable: 1
+  player: {fileID: 1505961814}
+  coord: {x: 3, y: 1}
 --- !u!1 &1970473474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,6 +6406,7 @@ GameObject:
   - component: {fileID: 1970473475}
   - component: {fileID: 1970473477}
   - component: {fileID: 1970473476}
+  - component: {fileID: 1970473478}
   m_Layer: 0
   m_Name: New Sprite (2)
   m_TagString: Untagged
@@ -6329,11 +6435,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970473474}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 2}
 --- !u!212 &1970473477
@@ -6374,7 +6481,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c340ce01fa45145a59077a5fb8992887, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f7c6b740e89c4d67942f5d1fffa317e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6385,6 +6492,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1970473478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970473474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302e26602514b4aa896cb8bf5dc177d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passable: 1
+  player: {fileID: 1505961814}
+  coord: {x: 2, y: 2}
 --- !u!1 &1974208276
 GameObject:
   m_ObjectHideFlags: 0
@@ -6429,6 +6551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 3, y: 7}
 --- !u!212 &1974208279
@@ -6524,6 +6647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 4, y: 5}
 --- !u!212 &2003605652
@@ -6619,6 +6743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 0, y: 0}
 --- !u!212 &2012870279
@@ -6714,6 +6839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 2, y: 5}
 --- !u!212 &2047834200
@@ -6809,6 +6935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 1, y: 1}
 --- !u!212 &2061386078
@@ -6904,6 +7031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 5, y: 2}
 --- !u!212 &2086338489
@@ -6999,6 +7127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 2}
 --- !u!212 &2091770635
@@ -7094,6 +7223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63d71d23324a4b148a3279ee72d3888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  passable: 1
   player: {fileID: 1505961814}
   coord: {x: 7, y: 0}
 --- !u!212 &2114125478
