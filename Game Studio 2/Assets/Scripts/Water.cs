@@ -17,6 +17,7 @@ public class Water : Tile // this is just an example of a specific tile script
     public void Start()
     {
         // for some reason, these sprites appear really small compared to blank green tiles
-        this.transform.localScale = Vector3.one * 3.5f;
+        //this.transform.localScale = Vector3.one * 3.5f;
+        //fixed
     }
 }
