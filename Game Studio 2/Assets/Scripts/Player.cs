@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Timer timer;
+    public InventoryManager inventory, actions;
     public int timePerMove = 1;
     public Vector2Int gridDimensions, playerPos;
     public Tile[,] tiles;
