@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public int timePerMove = 1;
     public Vector2Int gridDimensions, playerPos;
     public Tile[,] tiles;
+    public Tile ShipTile;
 
     Stack timeStack, posStack;
 
@@ -99,6 +100,16 @@ public class Player : MonoBehaviour
                 playerPos = (Vector2Int) posStack.Pop();
             }
         }
+
+        transform.position = tiles[playerPos.x, playerPos.y].gameObject.transform.position;
+    }
+    
+    public void ReturnToShip()
+    {
+        Debug.Log("Player.ReturnToShip()");
+
+        playerPos.x = ShipTile.coord.x;
+        playerPos.y = ShipTile.coord.y;
 
         transform.position = tiles[playerPos.x, playerPos.y].gameObject.transform.position;
     }

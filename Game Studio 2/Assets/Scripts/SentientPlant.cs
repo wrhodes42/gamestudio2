@@ -15,13 +15,27 @@ public class SentientPlant : Tile
 
     public override void OnTileEnter()
     {
-        //set fonts
-        sayDialogText.font = alienFont;
-
-        player.timer.AddTime(1); // talking to plants takes time i guess
-        flowchart.ExecuteBlock("PlantTalk");
-
         
+        player.timer.AddTime(1); // talking to plants takes time i guess
+        if (flowchart.GetBooleanVariable("isTranslatorMade") == false) {
+            //set fonts
+            sayDialogText.font = alienFont;
+        } else
+        {
+            sayDialogText.font = englishFont;
+        }
+
+        if (flowchart.GetBooleanVariable("isTranslatorMade") == false && flowchart.GetBooleanVariable("plantVisited") == false)
+        {
+            flowchart.ExecuteBlock("PlantTalk");
+            sayDialogText.font = englishFont;
+            flowchart.ExecuteBlock("PlantTalkDebrief");
+        }
+        if (flowchart.GetBooleanVariable("plantVisited") == false)
+        {
+
+        }
+
     }
 
     public override void OnTileExit(){
