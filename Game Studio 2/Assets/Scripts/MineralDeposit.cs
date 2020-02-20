@@ -15,7 +15,13 @@ public class MineralDeposit : Tile
         
     }
 
-    public override void OnTileEnter(){
-        flowchart.ExecuteBlock("MineralDeposit");
+    public override void OnTileEnter()
+{
+        player.actions.AddAction("Extract Minerals", 3);
+    }
+
+    public override void OnTileExit()
+    {
+        player.actions.RemoveAction("Extract Minerals");
     }
 }

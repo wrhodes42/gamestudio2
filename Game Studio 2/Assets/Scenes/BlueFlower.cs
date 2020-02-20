@@ -5,15 +5,15 @@ using Fungus;
 
 public class BlueFlower : Tile
 {
-    public Flowchart flowchart;
 
     public override void OnTileEnter()
     {
-        flowchart.ExecuteBlock("PlantTalk");
+        player.actions.AddAction("Pick Flower", 1);
     }
 
 
     public override void OnTileExit()
     {
+        player.actions.RemoveAction("Pick Flower");
     }
 }

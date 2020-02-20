@@ -1,6 +1,1 @@
-sceneSetups:
-- path: C:/Users/charl/OneDrive/Documents/Game Dev/NYU Game Center/Studio 1/Prototype
-    Studio Week 1/Assets/Scenes/Week3.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []
